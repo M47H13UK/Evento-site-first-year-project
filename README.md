@@ -2,7 +2,7 @@
 
 A simple, responsive event-management website. Users can add events and see live countdowns, browse pricing, learn about the team, and find contact information. Built as a static site and suitable for quick portfolio review.
 
-![Home demo](./img/home-demo.png)
+![Home demo](./home-demo.png)
 
 ## Live demo
 - https://evento---cs-project.web.app/
