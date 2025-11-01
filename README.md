@@ -5,8 +5,9 @@ A simple, responsive event-management website. Users can add events and see live
 ![Home demo](./home-demo.png)
 
 ## Live demo
+*(free tier; daily serving limits may apply)*
 - https://evento---cs-project.web.app/
-- https://evento---cs-project.firebaseapp.com/  *(free tier; daily serving limits may apply)*
+- https://evento---cs-project.firebaseapp.com/  
 
 ## Features
 - **Local Event Dashboard** — add events (title/description/date-time) and see live countdown cards.
@@ -22,7 +23,7 @@ A simple, responsive event-management website. Users can add events and see live
 - **Hosting:** Firebase (static site)
 
 ## Preview locally
-Download this folder (or clone the repo) and open **index.html** in your browser.
+Download this folder (or clone the repo) and open **index.html** in your browser ( Chrome is recommended).
 
 ## Resources
 - **Demo video:** [Evento - Showcase - CSE104 - Mathieu Kusno.mkv](./Evento%20-%20Showcase%20-%20CSE104%20-%20Mathieu%20Kusno.mkv)
