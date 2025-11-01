@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="homePage.css">
+    <link rel="stylesheet" type="text/css" href="pricing.css">
+    <link rel="stylesheet" type="text/css" href="dashboard-local.css">
+    <script src="dashboard-local-script.js" defer></script>
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <title>Evento - Countdown</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo-nav">
+            <h1>Evento</h1>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-item">Home</a>
+            <a href="#" class="nav-item">Local Event Dashboard</a>
+            <a href="dashboard-online.html" class="nav-item">Online Event Dashboard</a>
+            <a href="aboutUs.html" class="nav-item">About</a>
+            <a href="pricing.html" class="nav-item">Pricing</a>
+            <a href="contact.html" class="nav-item">Contact</a>
+        </div>
+        <div class="call-to-action is-hidden-mobile">
+            <a href="dashboard-local.html">
+                <button>Get Started</button>
+            </a>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="nav-drawer" id="navDrawer">
+        <div class="nav-links-mobile">
+            <a href="index.html" class="nav-item">Home</a>
+            <a href="#" class="nav-item">Local Event Dashboard</a>
+            <a href="dashboard-online.html" class="nav-item">Online Event Dashboard</a>
+            <a href="aboutUs.html" class="nav-item">About</a>
+            <a href="pricing.html" class="nav-item">Pricing</a>
+            <a href="contact.html" class="nav-item">Contact</a>
+        </div>
+        <div class="call-to-action">
+            <a href="dashboard-local.html">
+                <button>Get Started</button>
+            </a>
+        </div>
+    </div>
+
+    <input type="file" id="imageInput" style="display:none;" accept="image/*" onchange="handleImageChange(event)">
+
+
+    <div id="local-dashboard">
+        <h1>Welcome to Your Local Dashboard</h1>
+        <div class="grid-container" id="grid-container">
+            <div class="add-card" onclick="showModal()">
+                <p>Press to add Event</p>
+            </div>
+        </div>
+        <input type="file" id="imageInput" style="display:none;" accept="image/*">
+    </div>
+
+    <!-- Modal Pop up for user input-->
+    <div id="cardModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Add New Card</h2>
+            <form id="cardForm">
+                <label for="cardTitle">Event Title:</label>
+                <textarea id="cardTitle" name="cardTitle" required></textarea>
+
+                <label for="cardParagraph">Event Description:</label>
+                <textarea id="cardParagraph" name="cardParagraph" required></textarea>
+
+                <label for="cardDateTime">Event Date and Time:</label>
+                <input type="datetime-local" id="cardDateTime" name="cardDateTime" required>
+
+                <button type="button" onclick="submitCardDetails()">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+    
+    <div id="footer">
+        <div class="footer-top">
+            <div class="logo-footer">
+                <h1><span class="highlight">Evento<img src="img/straight-underline.svg" alt="Underline" class="underline-img"></span></h1>
+            </div>
+            <div class="footer-location">
+                <img src="img/location-pin-footer.svg" alt="Location Icon">
+                <p>Headquarters - Ecole Polytechnique | France</p>
+            </div>
+        </div>
+        <div class="footer-line"></div>
+
+        <div class="footer-mid">
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Useful Links</h3>
+                    <a href="index.html"><h4>Home</h4></a>
+                    <a href="dashboard-local.html"><h4>Local Event Dashboard</h4></a>
+                    <a href="dashboard-online.html"><h4>Online Event Dashboard</h4></a>
+                    <a href="aboutUs.html"><h4>About</h4></a>
+                    <a href="pricing.html"><h4>Pricing</h4></a>
+                    <a href="contact.html"><h4>Contact Us</h4></a>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <h4>103 Avenue Henri Becquerel, <br>Palaiseau, France</h4>
+                    <div class="contact-info">
+                        <img src="img/email-icon-footer.svg" alt="Email Icon">
+                        <h4>contact@evento.com</h4>
+                    </div>
+                    <div class="contact-info">
+                        <img src="img/tel-icon-footer.svg" alt="Telephone Icon">
+                        <h4>+33 12 34 56 78 9</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-socials">
+                <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.svg" alt="Facebook"></a>
+                <a href="https://www.tiktok.com/" target="_blank"><img src="img/tiktok.svg" alt="TikTok"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.svg" alt="Instagram"></a>
+                <a href="https://www.x.com/" target="_blank"><img src="img/x.svg" alt="X (formerly Twitter)"></a>
+                <a href="https://www.linkedin.com/" target="_blank"><img src="img/linkedIn.svg" alt="LinkedIn"></a>
+                <a href="https://www.youtube.com/" target="_blank"><img src="img/youtube.svg" alt="YouTube"></a>
+            </div>
+        </div>
+        <div class="footer-line"></div>
+
+        <div class="footer-bottom">
+            <p>© 2024 The Evento Company. All rights reserved.</p>
+            <p>Created and Designed by: Mathieu Kusno BX26, Ecole Polytechnique</p>
+        </div>
+
+    </div>
+    
+</body>
+</html>
