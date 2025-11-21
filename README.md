@@ -2,15 +2,15 @@
 
 A simple, responsive event-management website. Users can add events and see live countdowns, browse pricing, learn about the team, and find contact information.
 
-![Home demo](./home-demo.png)
+> ## ▶ Watch a 3-minute showcase video  
+> **[Click here to watch on OneDrive](https://1drv.ms/v/c/4d75d128dc6af497/EdJNE3dWKSlLh1-_Q3kE3UQB2pzd9hTj5FzLGyU5--Phuw?e=s0uSFC)**
 
-[![▶ Watch the demo on OneDrive](./home-demo.png)](https://1drv.ms/v/c/4d75d128dc6af497/EdJNE3dWKSlLh1-_Q3kE3UQB2pzd9hTj5FzLGyU5--Phuw?e=s0uSFC)
-
-
-## Live demo
-*(free tier; daily serving limits may apply)*
+## Hosted Live
+*(free tier firebase hosting; daily serving limits may apply)*
 - https://evento---cs-project.web.app/
 - https://evento---cs-project.firebaseapp.com/  
+
+![Home demo](./home-demo.png)
 
 ## Features
 - **Local Event Dashboard** — add events (title/description/date-time) and see live countdown cards.
