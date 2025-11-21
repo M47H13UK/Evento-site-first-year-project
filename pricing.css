@@ -1,0 +1,212 @@
+
+/* Restyling of some Navbar elements */
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    position: static; 
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+    transition: background-color 0.7s ease;
+}
+.logo-nav h1 {
+    color: black;
+    margin: 0;
+}
+
+.nav-item{
+    color: rgb(90, 90, 90);
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+    cursor: pointer; 
+}
+
+
+
+/* Pricing Plans Styling */
+#pricing {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#pricing .main-title {
+    font-size: 6.5em;
+    margin-top: 25vh;
+}
+
+#pricing .main-subtitle {
+    margin-bottom: 25vh;
+}
+
+#pricing h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#pricing h2 {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    color: #6c757d;
+}
+
+.pricing-features-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    gap: 20px;
+    width: 60vw;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.plan-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f9fa; 
+    border-radius: 20px;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+}
+
+.plan h2 {
+    color: green; 
+    margin-bottom: 10px;
+}
+
+.plan.team h2 {
+    color: #28a745; 
+}
+
+.plan.enterprise h2 {
+    color: #007bff; 
+}
+
+.plan .price {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.plan .billing {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.plan button {
+    padding: 10px 20px;
+    background-color: green; 
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.plan.team button {
+    background-color: #28a745;
+}
+
+.plan.enterprise button {
+    background-color: #007bff; 
+}
+
+.plan button:hover {
+    opacity: 0.9;
+}
+
+
+.feature-title, .feature {
+    padding: 15px;
+}
+
+.feature-title {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    text-align: left;
+}
+
+.feature {
+    text-align: center;
+}
+
+.features-header, .feature-title, .feature {
+    border-radius: 10px;
+}
+
+
+
+/* Media Queries for Mobile Screens */
+@media (max-width: 767px) {
+
+    .navbar {
+        justify-content: space-between;
+    }
+
+    #pricing .main-title {
+        font-size: 2.5em;
+        margin-top: 10vh;
+    }
+
+    .hamburger div {
+        width: 25px;
+        height: 3px;
+        background-color: rgb(0, 0, 0);
+        margin: 4px 0;
+        transition: 0.4s;
+
+    }
+
+    #pricing .main-subtitle {
+        margin-bottom: 10vh;
+    }
+
+    .pricing-features-grid {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        padding: 10px;
+    }
+
+    .plan-description {
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+
+    .plan {
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+
+    .plan h2 {
+        font-size: 1.5rem;
+    }
+
+    .plan .price {
+        font-size: 1.5rem;
+        margin: 5px 0;
+    }
+
+    .plan .billing {
+        font-size: 0.8rem;
+    }
+
+    
+}
+
