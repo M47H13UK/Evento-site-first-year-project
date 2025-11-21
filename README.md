@@ -1,8 +1,11 @@
 # Evento
 
-A simple, responsive event-management website. Users can add events and see live countdowns, browse pricing, learn about the team, and find contact information. Built as a static site and suitable for quick portfolio review.
+A simple, responsive event-management website. Users can add events and see live countdowns, browse pricing, learn about the team, and find contact information.
 
 ![Home demo](./home-demo.png)
+
+[![▶ Watch the demo on OneDrive](./home-demo.png)](https://1drv.ms/v/c/4d75d128dc6af497/EdJNE3dWKSlLh1-_Q3kE3UQB2pzd9hTj5FzLGyU5--Phuw?e=s0uSFC)
+
 
 ## Live demo
 *(free tier; daily serving limits may apply)*
@@ -26,7 +29,7 @@ A simple, responsive event-management website. Users can add events and see live
 Download this folder (or clone the repo) and open **index.html** in your browser ( Chrome is recommended).
 
 ## Resources
-- **Demo video:** [Evento - Showcase - CSE104 - Mathieu Kusno.mkv](./Evento%20-%20Showcase%20-%20CSE104%20-%20Mathieu%20Kusno.mkv)
+- **Demo video:** [Evento - Showcase - CSE104 - Mathieu Kusno.mkv](./Evento%20-%20Showcase%20-%20CSE104%20-%20Evento.mkv) · **Watch online:** [OneDrive](https://1drv.ms/v/c/4d75d128dc6af497/EdJNE3dWKSlLh1-_Q3kE3UQB2pzd9hTj5FzLGyU5--Phuw?e=s0uSFC)
 - **Project report (PDF):** [Report - Mathieu Kusno - CSE104 - Evento.pdf](./Report%20-%20Mathieu%20Kusno%20-%20CSE104%20-%20Evento.pdf)
 
 ## Notes & limitations
